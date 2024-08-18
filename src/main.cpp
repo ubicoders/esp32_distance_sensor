@@ -27,9 +27,9 @@ void loop() {
   distance_mm = 0.17 * duration_us;
 
   // print the value to Serial Monitor
-  Serial.print("distance: ");
+  Serial.print(",");
   Serial.print(distance_mm);
-  Serial.println(" mm");
+  
 
-  delay(10);
+  delay(20);
 }
